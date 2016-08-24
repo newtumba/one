@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings
+	xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd"
+	xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<proxies>
+		<proxy>
+			<active>true</active>
+			<protocol>http</protocol>
+			<host>www-proxy.us.oracle.com</host>
+			<port>80</port>
+			<nonProxyHosts>localhost|*.oracle.com|*.oracleads.com|*.us.oracle.com|*.uk.oracle.com|*.ca.oracle.com|*.oraclecorp.com|*.oracleportal.com</nonProxyHosts>
+		</proxy>
+	</proxies>
+</settings>
+
+
