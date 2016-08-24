@@ -1,6 +1,7 @@
 package one;
 
 public class X1 {
+	private String name;
 	public static String doSomething() {
 		return "result";
 	}
